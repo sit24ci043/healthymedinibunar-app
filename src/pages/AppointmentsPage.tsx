@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { Calendar, Video, MessageSquare, Clock, ChevronRight } from "lucide-react";
+import { Calendar, Video, MessageSquare, Clock, ChevronRight, Plus } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const tabs = ["Upcoming", "Past", "Cancelled"];
