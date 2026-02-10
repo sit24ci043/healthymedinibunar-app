@@ -8,10 +8,15 @@ import HomePage from "./pages/HomePage";
 import DoctorsPage from "./pages/DoctorsPage";
 import SymptomCheckerPage from "./pages/SymptomCheckerPage";
 import AppointmentsPage from "./pages/AppointmentsPage";
+import BookAppointmentPage from "./pages/BookAppointmentPage";
 import ChatPage from "./pages/ChatPage";
 import ProfilePage from "./pages/ProfilePage";
 import EmergencyPage from "./pages/EmergencyPage";
 import MedicinesPage from "./pages/MedicinesPage";
+import MedicalRecordsPage from "./pages/MedicalRecordsPage";
+import PrescriptionsPage from "./pages/PrescriptionsPage";
+import NotificationsPage from "./pages/NotificationsPage";
+import LanguagePage from "./pages/LanguagePage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,10 +33,15 @@ const App = () => (
             <Route path="/doctors" element={<DoctorsPage />} />
             <Route path="/symptoms" element={<SymptomCheckerPage />} />
             <Route path="/appointments" element={<AppointmentsPage />} />
+            <Route path="/book-appointment" element={<BookAppointmentPage />} />
             <Route path="/chat" element={<ChatPage />} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/emergency" element={<EmergencyPage />} />
             <Route path="/medicines" element={<MedicinesPage />} />
+            <Route path="/medical-records" element={<MedicalRecordsPage />} />
+            <Route path="/prescriptions" element={<PrescriptionsPage />} />
+            <Route path="/notifications" element={<NotificationsPage />} />
+            <Route path="/language" element={<LanguagePage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AppShell>
