@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { Calendar, Video, MessageSquare, Clock, ChevronRight } from "lucide-react";
+import { Calendar, Video, MessageSquare, Clock, ChevronRight, Plus } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const tabs = ["Upcoming", "Past", "Cancelled"];
@@ -19,8 +20,12 @@ const AppointmentsPage = () => {
 
   return (
     <div className="px-4 pt-6">
-      <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-xl font-bold text-foreground mb-4">My Appointments</h1>
+      <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="flex items-center justify-between mb-4">
+        <h1 className="text-xl font-bold text-foreground">My Appointments</h1>
+        <Link to="/book-appointment"
+          className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity">
+          <Plus className="w-4 h-4" /> Book
+        </Link>
       </motion.div>
 
       {/* Tabs */}
