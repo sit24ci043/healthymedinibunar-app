@@ -1,4 +1,4 @@
-[Click Here to View the Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID)
+[Click Here to View the Project](https://healthymedinibunar-app.lovable.app/)
 🏥 Medi-Nibunar
 Empowering Health, Empowering Lives
 
