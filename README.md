@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+[Click Here to View the Project](**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID)
+🏥 Medi-Nibunar
+Empowering Health, Empowering Lives
 
-## Project info
+Medi-Nibunar is an intelligent telemedicine platform designed to provide accessible, AI-powered healthcare support to individuals anytime, anywhere. The platform bridges healthcare gaps through virtual consultations, symptom analysis, and inclusive digital health services.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🚀 Project Overview
 
-## How can I edit this code?
+Medi-Nibunar aims to improve healthcare accessibility, especially for remote and underserved communities. It integrates telemedicine with AI-driven support systems to ensure timely and reliable medical guidance.
 
-There are several ways of editing your application.
+The platform focuses on:
 
-**Use Lovable**
+Remote healthcare access
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+AI-powered symptom analysis
 
-Changes made via Lovable will be committed automatically to this repo.
+Secure patient-doctor communication
 
-**Use your preferred IDE**
+Inclusive and multilingual healthcare support
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🌟 Key Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🩺 Virtual Consultations – Connect with healthcare professionals remotely
 
-Follow these steps:
+🤖 AI-Powered Symptom Analysis – Intelligent assistance using NLP
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🌍 Multilingual Support – Native language healthcare guidance
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🔒 Secure Authentication – Ensures user data privacy
 
-# Step 3: Install the necessary dependencies.
-npm i
+📅 Smart Appointment Booking – AI-assisted scheduling
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+📱 Cross-Platform Accessibility – Web & mobile compatibility
 
-**Edit a file directly in GitHub**
+🎯 Problem Statement
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Many communities face barriers to healthcare access due to:
 
-**Use GitHub Codespaces**
+Geographical isolation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Limited medical facilities
 
-## What technologies are used for this project?
+Language barriers
 
-This project is built with:
+Delayed consultations
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Medi-Nibunar addresses these issues by offering remote medical assistance powered by modern technology.
 
-## How can I deploy this project?
+🛠️ Technology Stack
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Frontend: Streamlit
 
-## Can I connect a custom domain to my Lovable project?
+AI Integration: Google AI Studio
 
-Yes, you can!
+Machine Learning: NLP-based symptom analysis
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Backend (Planned): Node.js
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Database (Planned): PostgreSQL
+
+Authentication: Multi-Factor Authentication (MFA)
+
+Security: Encrypted data storage & secure communication
+
+🔮 Future Enhancements
+
+🎥 Integrated Video Consultations
+
+🆘 Emergency Service Integration
+
+🔔 Medication Reminders
+
+🧠 AI-based Early Disease Detection
+
+📸 Prescription/Rash Image Analysis
+
+🎙️ Voice-Based Interaction
+
+💡 Novelty of the Project
+
+Medi-Nibunar stands out by offering:
+
+Native language AI diagnosis
+
+Comprehensive medical knowledge coverage
+
+Medication doubt clarification
+
+Reliable and user-centric healthcare guidance
+
+This makes it more than just a chatbot — it’s a digital healthcare companion.
